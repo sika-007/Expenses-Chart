@@ -46,7 +46,7 @@ for (let i = 0; i < data.length; i++) {
 }
 
 for (let i = 0; i < data.length; i++) {
-    bars[i].style.height = `${data[i].amount / 52.36 * 72}%`
+    bars[i].style.height = `${data[i].amount / 52.36 * 70}%`
 }
 
 // Present day bar color change

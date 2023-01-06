@@ -20,7 +20,7 @@ body {
 }
 
 .balance-and-logo-container{
-    width: 100%;
+    width: 90%;
     background-color: hsl(10, 79%, 65%);
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ body {
 
 .bar-chart-container {
     background-color: hsl(33, 100%, 98%);
-    width: 100%;
+    width: 90%;
     height: 340px;
     border-radius: 10px;
     padding: 25px;
@@ -96,7 +96,7 @@ body {
 /*Still more rules to be added here. No forget oh*/
 
 .total-container {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
