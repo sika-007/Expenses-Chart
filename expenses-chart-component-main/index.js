@@ -5,6 +5,7 @@ const hoverInfo = document.querySelectorAll('.hover-info')
 let today = new Date()
 let currentDayOfWeek = today.toDateString().toLowerCase().split(' ')[0]
 
+/*declaring data to dynamically set the height of each bar*/
 const data = [
     {
       day: "mon",
