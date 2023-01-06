@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Expenses Chart component</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="balance-and-logo-container">
+      <div class="balance-container">
+        <p id="my-balance">My balance</p>
+        <p id="balance">$921.48</p>
+      </div>
+      <img src="images/logo.svg" alt="logo">
+    </div>
+    <div class="bar-chart-container">
+      <p id="spending">Spending - Last 7 days</p>
+      <div class="bar-chart">
+        <div class="bar-container">
+          <div class="hover-info">
+            <p class="hover-text"></p>
+          </div>
+          <div class="bars"></div>
+          <p class="bar-text">mon</p>
+        </div>
+        <div class="bar-container">
+          <div class="hover-info">
+            <p class="hover-text"></p>
+          </div>
+          <div class="bars"></div>
+          <p class="bar-text">tue</p>
+        </div>
+        <div class="bar-container">
+          <div class="hover-info">
+            <p class="hover-text"></p>
+          </div>
+          <div class="bars"></div>
+          <p class="bar-text">wed</p>
+        </div>
+        <div class="bar-container">
+          <div class="hover-info">
+            <p class="hover-text"></p>
+          </div>
+          <div class="bars"></div>
+          <p class="bar-text">thu</p>
+        </div>
+        <div class="bar-container">
+          <div class="hover-info">
+            <p class="hover-text"></p>
+          </div>
+          <div class="bars"></div>
+          <p class="bar-text">fri</p>
+        </div>
+        <div class="bar-container">
+          <div class="hover-info">
+            <p class="hover-text"></p>
+          </div>
+          <div class="bars"></div>
+          <p class="bar-text">sat</p>
+        </div>
+        <div class="bar-container">
+          <div class="hover-info">
+            <p class="hover-text"></p>
+          </div>
+          <div class="bars"></div>
+          <p class="bar-text">sun</p>
+        </div>
+      </div>
+    </div>
+    <div class="total-container">
+      <div class="total-left">
+        <p class="text">Total this month</p>
+        <p id="total">$478.33</p>
+      </div>
+      <div class="total-right">
+        <p id="percent-rise">+2.4%</p>
+        <p class="text">from last month</p>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
